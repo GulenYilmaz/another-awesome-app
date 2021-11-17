@@ -50,4 +50,15 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+  }aside{
+      background :rgba(0, 0, 0, 0.5);
+      opacity: 0.3;
+      height: 100%;
+      width: 33%;
+      color: salmon;
+
+  }
+  aside h3{
+      font-size: 3rem;
+      color: rgb(153, 124, 124);
   }
