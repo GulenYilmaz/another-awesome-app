@@ -9,7 +9,7 @@ app.use(express.static("client"));
 app.get('/',(req,res)=>{
     res.sendFile("index.html");
 })
-
+// '/'-->means any url is going to return this function
 
 
 const port =process.env.PORT || process.env.SERVER_PORT;
